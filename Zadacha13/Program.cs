@@ -2,12 +2,12 @@
 
 using static System.Console;
 Clear();
-
 WriteLine("Введите число");
 int number = Convert.ToInt32(ReadLine());
 if(number > 99)
 {
-    int arraynumber = number[];
+    string result = Convert.ToString(number);
+    WriteLine($"Третья цифра: {result[2]}");
 }
 else
 {
